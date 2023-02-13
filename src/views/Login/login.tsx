@@ -4,6 +4,8 @@ import logo from '../../assets/images/vcpmc_logo.jpg';
 import logo2 from '../../assets/images/vn.jpg';
 import eng from '../../assets/images/eng.jpg';
 import ForgotPass from "../ForgotPassword/forgot_pass";
+import { AiOutlineEye } from "react-icons/ai";
+import { AiOutlineEyeInvisible } from "react-icons/ai";
 
 
 class Login extends React.Component {
@@ -28,14 +30,14 @@ class Login extends React.Component {
                         <img src={logo2} className="logo2" />
                     </div>
                     <div className="dropdown-content">
-                        <div className="drop-title">
-                            <a className="a-top">Tiếng Việt</a>
-                            <img src={logo2} className="vn" />
-                        </div>
-                        <div className="drop-title">
-                            <a className="a-top">English</a>
-                            <img src={eng} className="eng" />
-                        </div>
+
+                        <a className="a-top">Tiếng Việt</a>
+                        <img src={logo2} className="vn" />
+
+
+                        <a className="a-top">English</a>
+                        <img src={eng} className="eng" />
+
                     </div>
                 </div>
 
@@ -52,17 +54,20 @@ class Login extends React.Component {
                     <label>Password</label>
                     <div className="input-container">
                         <input className="input" type={this.state.isShowPassword ? 'text' : 'password'} />
-                        <span className="span" onClick={() => { this.handleShowHidePassword() }}>o</span>
+                        <span className="span" onClick={() => { this.handleShowHidePassword() }}><AiOutlineEye></AiOutlineEye></span>
+                        {/* <span className="span" onClick={() => { this.handleShowHidePassword() }}><AiOutlineEyeInvisible>           </AiOutlineEyeInvisible></span> */}
                     </div>
 
-                    <div className="checkbox-container">
-                        <input type="checkbox" className="checkbox"></input>
-                        <label>Ghi nhớ đăng nhập</label>
-                    </div>
+                    <label className="container">Ghi nhớ đăng nhập
+                        <input type="checkbox" className="checkmark"></input>
+                        <span className="checkmark"></span>
+                    </label>
 
                     <input className="button" type="submit" value='Đăng nhập'
                     />
                 </form>
+
+                {/* <AiOutlineEyeInvisible></AiOutlineEyeInvisible> */}
 
                 <div>
                     <span className="a-bot" onClick={ForgotPass}>Quên mật khẩu?</span>

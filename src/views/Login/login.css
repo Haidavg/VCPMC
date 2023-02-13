@@ -27,7 +27,7 @@ p {
     line-height: 48px;
 }
 
-label {
+.label {
     display: flex;
     font-family: 'Montserrat';
     font-style: normal;
@@ -63,17 +63,6 @@ label {
     bottom: 10px;
     width: 15px;
     height: 15px;
-}
-
-.checkbox {
-    display: flex;
-    margin: 10px 0px 10px -10px;
-    width: 40px;
-    background-color: #2B2B3F;
-}
-
-.checkbox-container {
-    display: flex;
 }
 
 .a-top {
@@ -198,14 +187,71 @@ label {
 .span {
     position: absolute;
     right: 0;
-    top: 3px;
+    top: 8px;
+    color: #FF7506;
 }
 
-.input[type="checkbox"] {
-    background-color: #990000;
+.container {
+    display: flex;
+    position: relative;
+    padding-left: 30px;
+    padding-top: 3px;
+    width: 400px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 15px;
+    margin: 20px 0 10px 0;
 }
 
-.checkbox {
-    background-color: #990000;
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
 
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 17px;
+    width: 17px;
+    background-color: #2B2B3F;
+    border: 2px solid #347AFF;
+    border-radius: 3px;
+}
+
+.container input:checked~.checkmark {
+    background-color: #2B2B3F;
+    border-color: #347AFF;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked~.checkmark:after {
+    display: flex;
+}
+
+.container .checkmark:after {
+    left: 6px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
