@@ -6,6 +6,7 @@ import eng from '../../assets/images/eng.jpg';
 import ForgotPass from "../ForgotPassword/forgot_pass";
 import { AiOutlineEye } from "react-icons/ai";
 import { AiOutlineEyeInvisible } from "react-icons/ai";
+import Language from "../Language/Language";
 
 
 class Login extends React.Component {
@@ -24,22 +25,7 @@ class Login extends React.Component {
     render() {
         return (
             <>
-                <div className="dropdown">
-                    <div className="dropbtn" >
-                        <a className="a-top">Tiếng Việt</a>
-                        <img src={logo2} className="logo2" />
-                    </div>
-                    <div className="dropdown-content">
-
-                        <a className="a-top">Tiếng Việt</a>
-                        <img src={logo2} className="vn" />
-
-
-                        <a className="a-top">English</a>
-                        <img src={eng} className="eng" />
-
-                    </div>
-                </div>
+                <Language />
 
                 <div>
                     <img src={logo} className="logo" />

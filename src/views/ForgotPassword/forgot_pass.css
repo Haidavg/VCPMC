@@ -55,8 +55,13 @@ label {
     border-radius: 100%;
 }
 
-.logo2 {
+/* .logo2 {
+    position: absolute;
+    display: flex;
     border-radius: 100%;
+    right: 40px;
+    top: 10px;
+    bottom: 10px;
     width: 15px;
     height: 15px;
 }
@@ -65,7 +70,7 @@ label {
     font-family: 'Montserrat';
     font-style: normal;
     font-size: 10px;
-}
+} */
 
 .a-bot {
     font-family: 'Montserrat';
@@ -80,7 +85,7 @@ label {
     font-weight: 600px;
 }
 
-.dropdown {
+/* .dropdown {
     position: relative;
     display: inline-block;
     margin: 10px 0 10px 1000px;
@@ -174,7 +179,7 @@ label {
     bottom: 10px;
     width: 15px;
     height: 15px;
-}
+} */
 
 .title {
     font-size: 20px;

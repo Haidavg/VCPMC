@@ -5,29 +5,14 @@ import eng from '../../assets/images/eng.jpg';
 import { FiSearch } from "react-icons/fi";
 import { AiOutlineUnorderedList } from "react-icons/ai";
 import { AiOutlineAppstore } from "react-icons/ai";
+import Language from "../Language/Language";
 
 const DSThietBi = () => {
     return (
         <>
 
             <div className="kbg-container">
-                <div className="dropdown">
-                    <div className="dropbtn" >
-                        <a className="a-top">Tiếng Việt</a>
-                        <img src={logo2} className="logo2" />
-                    </div>
-                    <div className="dropdown-content">
-                        <div className="drop-title">
-                            <a className="a-top">Tiếng Việt</a>
-                            <img src={logo2} className="vn" />
-                        </div>
-                        <div className="drop-title">
-                            <a className="a-top">English</a>
-                            <img src={eng} className="eng" />
-                        </div>
-                    </div>
-                </div>
-
+                <Language />
                 <div>
                     <h3>Danh sách thiết bị</h3>
                 </div>
@@ -56,7 +41,7 @@ const DSThietBi = () => {
                     </div>
 
                     <div className="search-ctn">
-                        <form className="example" action="/action_page.php" >
+                        <form className="example">
                             <input type="text" placeholder="Tìm thiết bị theo tên, SKU, địa điểm, địa chỉ Mac" name="search2"></input>
                             <span className="icon-search"><FiSearch></FiSearch></span>
                         </form>
