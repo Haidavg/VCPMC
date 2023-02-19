@@ -7,6 +7,7 @@ import ForgotPass from "../ForgotPassword/forgot_pass";
 import { AiOutlineEye } from "react-icons/ai";
 import { AiOutlineEyeInvisible } from "react-icons/ai";
 import Language from "../Language/Language";
+import KhoBanGhi from "../KhoBanGhi/KhoBanGhi";
 
 
 class Login extends React.Component {
@@ -56,7 +57,7 @@ class Login extends React.Component {
                 {/* <AiOutlineEyeInvisible></AiOutlineEyeInvisible> */}
 
                 <div>
-                    <span className="a-bot" onClick={ForgotPass}>Quên mật khẩu?</span>
+                    <span className="a-bot">Quên mật khẩu?</span>
                 </div>
             </>
         )
