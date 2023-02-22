@@ -27,7 +27,7 @@ p {
     line-height: 48px;
 }
 
-.label {
+label {
     display: flex;
     font-family: 'Montserrat';
     font-style: normal;

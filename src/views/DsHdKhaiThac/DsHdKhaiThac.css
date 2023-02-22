@@ -61,7 +61,7 @@ h3 {
 .icon-search {
     position: absolute;
     left: 430px;
-    top: 154px;
+    top: 148px;
 }
 
 .kbg-a {
@@ -106,7 +106,7 @@ option {
 
 .kbg-nd {
     background: #2F2F41;
-    height: 580px;
+    height: 650px;
     width: 1205px;
     border-radius: 10px;
     margin-top: 20px;

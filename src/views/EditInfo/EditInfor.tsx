@@ -7,6 +7,7 @@ import { AiOutlineUnorderedList } from "react-icons/ai";
 import { AiOutlineAppstore } from "react-icons/ai";
 import Language from "../Language/Language";
 import { ToastContainer, toast } from 'react-toastify';
+import MenuBar from "../MenuBar/MenuBar";
 
 const EditInfor = () => {
     const notify = () => toast.success("Đổi mật khẩu thành công!");
@@ -63,6 +64,8 @@ const EditInfor = () => {
                     </div>
                 </form>
             </div>
+
+            <MenuBar />
         </>
     )
 }

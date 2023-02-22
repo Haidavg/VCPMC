@@ -9,19 +9,30 @@ import Infor from './views/Infor/Infor';
 import EditInfor from './views/EditInfo/EditInfor';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import MenuInfor from './views/MenuInfor/MenuInfor';
+import DSLichPhat from './views/DSLichPhat/DSLichPhat';
+import DSHopDong from './views/DSHopDong/DSHopDong';
+import DsHdKhaiThac from './views/DsHdKhaiThac/DsHdKhaiThac';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Login />
+        {/* <Login /> */}
         {/* <ForgotPass /> */}
+
         {/* <KhoBanGhi /> */}
-        {/* <Playlist /> */}
-        {/* <DSThietBi /> */}
+
         {/* <Infor /> */}
         {/* <EditInfor /> */}
-        {/* <MenuBar /> */}
+
+        {/* <Playlist /> */}
+
+        {/* <DSLichPhat /> */}
+
+        {/* <DSHopDong /> */}
+        {/* <DsHdKhaiThac /> */}
+        <DSThietBi />
       </header>
 
       <ToastContainer

@@ -6,6 +6,8 @@ import { FiSearch } from "react-icons/fi";
 import { AiOutlineUnorderedList } from "react-icons/ai";
 import { AiOutlineAppstore } from "react-icons/ai";
 import Language from "../Language/Language";
+import MenuBar from "../MenuBar/MenuBar";
+import MenuInfor from "../MenuInfor/MenuInfor";
 
 const Infor = () => {
     return (
@@ -55,6 +57,8 @@ const Infor = () => {
                     </div>
                 </form>
             </div>
+            <MenuBar />
+            <MenuInfor />
         </>
     )
 }

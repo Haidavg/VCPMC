@@ -6,6 +6,8 @@ import { FiSearch } from "react-icons/fi";
 import { AiOutlineUnorderedList } from "react-icons/ai";
 import { AiOutlineAppstore } from "react-icons/ai";
 import Language from "../Language/Language";
+import MenuBar from "../MenuBar/MenuBar";
+import { FiEdit } from "react-icons/fi";
 
 const KhoBanGhi = () => {
     return (
@@ -78,6 +80,15 @@ const KhoBanGhi = () => {
 
                 </div>
             </div>
+
+            <div className="menu-container">
+                <div className="sub-menu">
+                    <FiEdit className="icon-menu"></FiEdit>
+                    <span className="span-menu">Quản lý phê duyệt</span>
+                </div>
+            </div>
+
+            <MenuBar />
         </>
     )
 }
