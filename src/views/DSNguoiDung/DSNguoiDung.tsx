@@ -1,5 +1,5 @@
 import React from "react";
-import './DsHdKhaiThac.css';
+import './DSNguoiDung.css';
 import logo2 from '../../assets/images/vn.jpg';
 import eng from '../../assets/images/eng.jpg';
 import { FiSearch } from "react-icons/fi";
@@ -8,9 +8,10 @@ import { AiOutlineAppstore } from "react-icons/ai";
 import Language from "../Language/Language";
 import MenuBar from "../MenuBar/MenuBar";
 import { FiEdit } from "react-icons/fi";
-import { VscAdd } from "react-icons/vsc";
+import { TbFileExport } from "react-icons/tb";
+import { FiUserPlus } from "react-icons/fi";
 
-const DsHdKhaiThac = () => {
+const DSNguoiDung = () => {
     return (
         <>
 
@@ -18,13 +19,13 @@ const DsHdKhaiThac = () => {
                 <Language />
 
                 <div>
-                    <h3>Danh sách hợp đồng khai thác</h3>
+                    <h3>Danh sách người dùng</h3>
                 </div>
 
                 <div className="kbg-content">
                     <div className="search-ctn">
                         <form className="example">
-                            <input type="text" placeholder="Tên hợp đồng, tác giả,..." name="search2"></input>
+                            <input type="text" placeholder="Tên hợp đồng, số hợp đồng, người ủy quyền..." name="search2"></input>
                             <span className="icon-search"><FiSearch></FiSearch></span>
                         </form>
                     </div>
@@ -37,8 +38,8 @@ const DsHdKhaiThac = () => {
 
             <div className="menu-container">
                 <div className="sub-menu">
-                    <VscAdd className="icon-menu"></VscAdd>
-                    <span className="span-menu">Thêm hợp đồng</span>
+                    <FiUserPlus className="icon-menu"></FiUserPlus>
+                    <span className="span-menu">Thêm người dùng</span>
                 </div>
             </div>
 
@@ -47,4 +48,4 @@ const DsHdKhaiThac = () => {
     )
 }
 
-export default DsHdKhaiThac;
+export default DSNguoiDung;

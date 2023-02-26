@@ -13,6 +13,13 @@ import MenuInfor from './views/MenuInfor/MenuInfor';
 import DSLichPhat from './views/DSLichPhat/DSLichPhat';
 import DSHopDong from './views/DSHopDong/DSHopDong';
 import DsHdKhaiThac from './views/DsHdKhaiThac/DsHdKhaiThac';
+import DsUyQuyen from './views/DSUyQuyen/DsUyQuyen';
+import DsDvSd from './views/DSDvSd/DsDvSd';
+import LSDoiSoat from './views/LichSuDoiSoat/LSDoiSoat';
+import PPDoanhThu from './views/PPDoanhThu/PPDoanhThu';
+import DSNguoiDung from './views/DSNguoiDung/DSNguoiDung';
+import TTTacPham from './views/TTTacPham/TTTacPham';
+import ChuKyDSoat from './views/ChuKyDSoat/ChuKyDSoat';
 
 function App() {
   return (
@@ -32,7 +39,17 @@ function App() {
 
         {/* <DSHopDong /> */}
         {/* <DsHdKhaiThac /> */}
-        <DSThietBi />
+        {/* <DSThietBi /> */}
+        {/* <DsUyQuyen /> */}
+        {/* <DsDvSd /> */}
+
+        {/* <LSDoiSoat /> */}
+        {/* <PPDoanhThu /> */}
+
+        {/* <DSNguoiDung /> */}
+        {/* <TTTacPham /> */}
+        <ChuKyDSoat />
+
       </header>
 
       <ToastContainer

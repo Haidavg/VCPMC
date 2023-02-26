@@ -8,6 +8,7 @@ import { AiOutlineAppstore } from "react-icons/ai";
 import Language from "../Language/Language";
 import MenuBar from "../MenuBar/MenuBar";
 import { FiEdit } from "react-icons/fi";
+import { VscAdd } from "react-icons/vsc";
 
 const DSHopDong = () => {
     return (
@@ -56,8 +57,8 @@ const DSHopDong = () => {
 
             <div className="menu-container">
                 <div className="sub-menu">
-                    <FiEdit className="icon-menu"></FiEdit>
-                    <span className="span-menu">Quản lý phê duyệt</span>
+                    <VscAdd className="icon-menu"></VscAdd>
+                    <span className="span-menu">Thêm hợp đồng</span>
                 </div>
             </div>
 

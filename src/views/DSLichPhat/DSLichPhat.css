@@ -114,7 +114,7 @@ option {
 
 .menu-container {
     background-color: #2F2F41;
-    position: fixed;
+    position: absolute;
     right: 0;
     top: 25%;
     bottom: 0;
@@ -142,9 +142,9 @@ option {
     font-size: 25px;
     align-items: center;
     color: #FF7506;
-    border: 1px solid #727288;
+    border: 1px solid #7272887b;
     border-radius: 100%;
-    background: #727288;
+    background: #7272887b;
     padding: 10px;
 }
 

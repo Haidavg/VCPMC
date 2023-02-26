@@ -1,113 +1,3 @@
-.dropdown {
-    position: relative;
-    display: inline-block;
-    margin: 10px 0 10px 1000px;
-    margin-left: 80%;
-}
-
-.dropbtn {
-    border: 1px solid #C8C8DB;
-    text-align: left;
-    background-color: #1E1E2E;
-    color: white;
-    padding: 10px;
-    font-size: 10px;
-    width: 100px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-size: 10px;
-    border-radius: 5px;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #1E1E2E;
-    border: solid white 1px;
-    text-align: left;
-    border: 1px solid #C8C8DB;
-    font-size: 10px;
-    background-color: #1E1E2E;
-    color: white;
-    padding: 10px;
-    font-size: 10px;
-    width: 100px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-size: 10px;
-}
-
-.dropdown-content a {
-    color: white;
-    padding: 12px 16px 12px 0;
-    text-decoration: none;
-    display: block;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 8px;
-    left: 1697px;
-    top: 24px;
-    border: 1px solid #1E1E2E;
-    border-radius: 4px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-size: 10px;
-}
-
-.dropdown-content a:hover {
-    background-color: #1E1E2E;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #1E1E2E;
-}
-
-.vn {
-    display: flex;
-    position: absolute;
-    display: flex;
-    border-radius: 100%;
-    right: 35px;
-    top: 22px;
-    bottom: 10px;
-    width: 15px;
-    height: 15px;
-}
-
-.eng {
-    display: flex;
-    position: absolute;
-    display: flex;
-    border-radius: 100%;
-    right: 50px;
-    top: 60px;
-    bottom: 10px;
-    width: 15px;
-    height: 15px;
-}
-
-.logo2 {
-    position: absolute;
-    display: flex;
-    border-radius: 100%;
-    right: 40px;
-    top: 10px;
-    bottom: 10px;
-    width: 15px;
-    height: 15px;
-}
-
-.a-top {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-size: 10px;
-}
-
 .search-ctn {
     margin-top: -6px;
 }
@@ -116,7 +6,7 @@ form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
     float: left;
-    width: 450px;
+    width: 510px;
     background: #2B2B3F;
     border: 1px solid #2B2B3F;
     border-radius: 5px;
@@ -170,8 +60,8 @@ h3 {
 
 .icon-search {
     position: absolute;
-    left: 430px;
-    top: 154px;
+    left: 490px;
+    top: 148px;
 }
 
 .kbg-a {
@@ -216,7 +106,7 @@ option {
 
 .kbg-nd {
     background: #2F2F41;
-    height: 580px;
+    height: 650px;
     width: 1205px;
     border-radius: 10px;
     margin-top: 20px;
@@ -226,7 +116,7 @@ option {
     background-color: #2F2F41;
     position: absolute;
     right: 0;
-    top: 28%;
+    top: 20%;
     bottom: 0;
     display: flex;
     transition: all 0.3 linear;

@@ -7,6 +7,8 @@ import { AiOutlineUnorderedList } from "react-icons/ai";
 import { AiOutlineAppstore } from "react-icons/ai";
 import Language from "../Language/Language";
 import MenuBar from "../MenuBar/MenuBar";
+import { VscAdd } from "react-icons/vsc";
+import { FiLock, FiTrash2, FiPower } from "react-icons/fi";
 
 const DSThietBi = () => {
     return (
@@ -30,6 +32,7 @@ const DSThietBi = () => {
 
                     <div className="kbg-option">
                         <select className="kbg-slt2" name="cars" id="cars">
+                            <option value="volvo">Tất cả</option>
                             <option value="volvo">MAC Address</option>
                             <option value="saab">Memory</option>
                             <option value="opel">SKU/ID</option>
@@ -51,6 +54,28 @@ const DSThietBi = () => {
 
                 <div className="kbg-nd">
 
+                </div>
+            </div>
+
+            <div className="menu-container">
+                <div className="sub-menu">
+                    <VscAdd className="icon-menu"></VscAdd>
+                    <span className="span-menu">Thêm thiết bị</span>
+                </div>
+
+                <div className="sub-menu">
+                    <FiPower className="icon-menu"></FiPower>
+                    <span className="span-menu">Kích hoạt thiết bị</span>
+                </div>
+
+                <div className="sub-menu">
+                    <FiLock className="icon-menu"></FiLock>
+                    <span className="span-menu">Khóa thiết bị</span>
+                </div>
+
+                <div className="sub-menu">
+                    <FiTrash2 className="icon-menu"></FiTrash2>
+                    <span className="span-menu">Xóa<br></br> thiết bị</span>
                 </div>
             </div>
 

@@ -1,5 +1,5 @@
 import React from "react";
-import './DsHdKhaiThac.css';
+import './DsUyQuyen.css';
 import logo2 from '../../assets/images/vn.jpg';
 import eng from '../../assets/images/eng.jpg';
 import { FiSearch } from "react-icons/fi";
@@ -10,7 +10,7 @@ import MenuBar from "../MenuBar/MenuBar";
 import { FiEdit } from "react-icons/fi";
 import { VscAdd } from "react-icons/vsc";
 
-const DsHdKhaiThac = () => {
+const DsUyQuyen = () => {
     return (
         <>
 
@@ -18,13 +18,13 @@ const DsHdKhaiThac = () => {
                 <Language />
 
                 <div>
-                    <h3>Danh sách hợp đồng khai thác</h3>
+                    <h3>Danh sách đối tác ủy quyền</h3>
                 </div>
 
                 <div className="kbg-content">
                     <div className="search-ctn">
                         <form className="example">
-                            <input type="text" placeholder="Tên hợp đồng, tác giả,..." name="search2"></input>
+                            <input type="text" placeholder="Họ tên, tên đăng nhập, email..." name="search2"></input>
                             <span className="icon-search"><FiSearch></FiSearch></span>
                         </form>
                     </div>
@@ -35,16 +35,9 @@ const DsHdKhaiThac = () => {
                 </div>
             </div>
 
-            <div className="menu-container">
-                <div className="sub-menu">
-                    <VscAdd className="icon-menu"></VscAdd>
-                    <span className="span-menu">Thêm hợp đồng</span>
-                </div>
-            </div>
-
             <MenuBar />
         </>
     )
 }
 
-export default DsHdKhaiThac;
+export default DsUyQuyen;
