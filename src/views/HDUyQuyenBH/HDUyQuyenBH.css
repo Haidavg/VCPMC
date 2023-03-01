@@ -1,0 +1,74 @@
+.kbg-container {
+    display: block;
+    position: absolute;
+    text-align: start;
+    display: block;
+    left: 10%;
+    right: 0;
+    top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.h3 {
+    position: absolute;
+    left: -5%;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.box-1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: -5%;
+    top: 100px;
+    margin-top: 70px;
+    font-size: 13px;
+    font-weight: 1000;
+}
+
+.lb-1 {
+    margin-bottom: 40px;
+}
+
+.kbg-slt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    background: #3E3E50;
+    color: #727288;
+    padding: 10px;
+    border: 1px solid #3E3E50;
+    border-radius: 5px;
+    width: 335px;
+    margin-left: 55px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.option {
+    background: #3E3E5B;
+    color: white;
+}
+
+.input {
+    position: absolute;
+    left: 29%;
+    background: #2B2B3F;
+    width: 335px;
+    border: 1px solid #727288;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.input-date {
+    position: absolute;
+    left: 29%;
+    background: #2B2B3F;
+    width: 168px;
+    border: 1px solid #727288;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+    padding-left: 10px;
+}

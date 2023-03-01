@@ -20,6 +20,9 @@ import PPDoanhThu from './views/PPDoanhThu/PPDoanhThu';
 import DSNguoiDung from './views/DSNguoiDung/DSNguoiDung';
 import TTTacPham from './views/TTTacPham/TTTacPham';
 import ChuKyDSoat from './views/ChuKyDSoat/ChuKyDSoat';
+import TaiApp from './views/TaiApp/TaiApp';
+import Feedback from './views/Feedback/Feedback';
+import HDUyQuyenBH from './views/HDUyQuyenBH/HDUyQuyenBH';
 
 function App() {
   return (
@@ -38,6 +41,9 @@ function App() {
         {/* <DSLichPhat /> */}
 
         {/* <DSHopDong /> */}
+
+        {/* <HDUyQuyenBH /> */}
+
         {/* <DsHdKhaiThac /> */}
         {/* <DSThietBi /> */}
         {/* <DsUyQuyen /> */}
@@ -48,7 +54,10 @@ function App() {
 
         {/* <DSNguoiDung /> */}
         {/* <TTTacPham /> */}
-        <ChuKyDSoat />
+        {/* <ChuKyDSoat /> */}
+
+        {/* <TaiApp /> */}
+        {/* <Feedback /> */}
 
       </header>
 

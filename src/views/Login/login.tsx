@@ -26,7 +26,7 @@ class Login extends React.Component {
     render() {
         return (
             <>
-                {/* <Language /> */}
+                <Language />
 
                 <div>
                     <img src={logo} className="logo" />
