@@ -42,7 +42,7 @@ function App() {
 
         {/* <DSHopDong /> */}
 
-        {/* <HDUyQuyenBH /> */}
+        <HDUyQuyenBH />
 
         {/* <DsHdKhaiThac /> */}
         {/* <DSThietBi /> */}
