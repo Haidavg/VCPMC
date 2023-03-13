@@ -1,5 +1,5 @@
 import React from "react";
-import './HDUyQuyenBH.css';
+import './ThemHDUQ.css';
 import logo2 from '../../assets/images/vn.jpg';
 import eng from '../../assets/images/eng.jpg';
 import Language from "../Language/Language";
@@ -9,7 +9,7 @@ import { SlCloudUpload } from "react-icons/sl";
 import { AiOutlineFileWord, AiOutlineFilePdf } from "react-icons/ai";
 import { RiErrorWarningLine } from "react-icons/ri";
 
-const HDUyQuyenBH = () => {
+const ThemHDUQ = () => {
     return (
         <>
 
@@ -17,7 +17,7 @@ const HDUyQuyenBH = () => {
                 <Language />
 
                 <div className="h3">
-                    <h3>Hợp đồng ủy quyền bài hát - </h3>
+                    <h3>Thêm hợp đồng ủy quyền mới</h3>
                 </div>
 
                 <div className="full-container">
@@ -25,30 +25,23 @@ const HDUyQuyenBH = () => {
                         <div className="box-1">
                             <div className="lb-1">
                                 <label className="lb-1">Số hợp đồng: </label>
-                                <input className="input" type="text"></input>
+                                <input className="input-z" type="text"></input>
                             </div>
 
                             <div className="lb-1">
                                 <label>Tên hợp đồng: </label>
-                                <input className="input" type="text"></input>
+                                <input className="input-z" type="text"></input>
                             </div>
 
 
                             <div className="lb-1">
                                 <label className="lb-1">Ngày hiệu lực: </label>
-                                <input className="input-date" type="date"></input>
+                                <input className="input-date-z" type="date"></input>
                             </div>
 
                             <div className="lb-1">
                                 <label className="lb-1">Ngày hết hạn: </label>
-                                <input className="input-date" type="date"></input>
-                            </div>
-
-                            <div className="lb-1">
-                                <label className="lb-1">Tình trạng: </label>
-                                <select className="kbg-slt">
-                                    <option className="option">Đang hiệu lực</option>
-                                </select>
+                                <input className="input-date-z" type="date"></input>
                             </div>
                         </div>
 
@@ -59,16 +52,6 @@ const HDUyQuyenBH = () => {
 
                             <div className="box-file-2">
                                 <button className="box-2-btn"> <SlCloudUpload className="box-2-icon"></SlCloudUpload> Tải lên</button>
-
-                                <div>
-                                    <label className="box-2-label"><AiOutlineFileWord className="box-2-icon-2"></AiOutlineFileWord>         ngumotminh.doc</label>
-                                    <label className="box-2-x">X</label>
-                                </div>
-
-                                <div>
-                                    <label className="box-2-label"><AiOutlineFilePdf className="box-2-icon-2"></AiOutlineFilePdf> muonroimasaocon.doc</label>
-                                    <label className="box-2-x">X</label>
-                                </div>
                             </div>
                         </div>
 
@@ -126,7 +109,7 @@ const HDUyQuyenBH = () => {
 
 
                             <div className="lb-1">
-                                <label className="lb-1">Ngày sinhc: </label>
+                                <label className="lb-1">Ngày sinh: </label>
                                 <input className="input-date-3" type="date"></input>
                             </div>
 
@@ -145,19 +128,19 @@ const HDUyQuyenBH = () => {
 
                             <div className="lb-1">
                                 <label className="lb-1">Số điện thoại: </label>
-                                <input className="input-8" type="text"></input>
+                                <input className="input-7" type="text"></input>
                             </div>
                         </div>
 
                         <div className="box-5">
                             <div className="lb-1">
                                 <label className="lb-1">CMND/CCCD: </label>
-                                <input className="input-3" type="text"></input>
+                                <input className="input-2" type="text"></input>
                             </div>
 
                             <div className="lb-1">
                                 <label>Ngày cấp: </label>
-                                <input className="input-date-2" type="date"></input>
+                                <input className="input-date-4" type="date"></input>
                             </div>
 
 
@@ -213,11 +196,11 @@ const HDUyQuyenBH = () => {
             <div className="btn-box">
                 <div className="btn-infor">
                     <input className="btn-1" type="button" value="Hủy" />
-                    <input className="btn-2" type="button" value="Lưu" />
+                    <input className="btn-2" type="button" value="Tạo" />
                 </div>
             </div>
         </>
     )
 }
 
-export default HDUyQuyenBH;
+export default ThemHDUQ;

@@ -23,6 +23,8 @@ import ChuKyDSoat from './views/ChuKyDSoat/ChuKyDSoat';
 import TaiApp from './views/TaiApp/TaiApp';
 import Feedback from './views/Feedback/Feedback';
 import HDUyQuyenBH from './views/HDUyQuyenBH/HDUyQuyenBH';
+import ThemHDUQ from './views/ThemHDUQ/ThemHDUQ';
+import ThemHDUQ2 from './views/ThemHDUQ2/ThemHDUQ2';
 
 function App() {
   return (
@@ -43,6 +45,8 @@ function App() {
         {/* <DSHopDong /> */}
 
         <HDUyQuyenBH />
+        {/* <ThemHDUQ /> */}
+        {/* <ThemHDUQ2 /> */}
 
         {/* <DsHdKhaiThac /> */}
         {/* <DSThietBi /> */}
