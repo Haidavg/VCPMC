@@ -131,7 +131,7 @@ const ThemHDUQ2 = () => {
 
                         <div className="box-5">
                             <div className="lb-1">
-                                <label className="lb-1">NNgười đại diện: </label>
+                                <label className="lb-1">Người đại diện: </label>
                                 <input className="input-2" type="text"></input>
                             </div>
 
