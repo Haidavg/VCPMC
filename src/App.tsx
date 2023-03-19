@@ -26,6 +26,8 @@ import HDUyQuyenBH from './views/HDUyQuyenBH/HDUyQuyenBH';
 import ThemHDUQ from './views/ThemHDUQ/ThemHDUQ';
 import ThemHDUQ2 from './views/ThemHDUQ2/ThemHDUQ2';
 import ThemNgDung from './views/ThemNgDung/ThemNgDung';
+import TaoHDThanhCong from './views/TaoHDThanhCong/TaoHDThanhCong';
+import TTBanGhi from './views/TTBanGhi/TTBanGhi';
 
 function App() {
   return (
@@ -35,6 +37,7 @@ function App() {
         {/* <ForgotPass /> */}
 
         {/* <KhoBanGhi /> */}
+        <TTBanGhi />
 
         {/* <Infor /> */}
         {/* <EditInfor /> */}
@@ -48,6 +51,7 @@ function App() {
         {/* <HDUyQuyenBH /> */}
         {/* <ThemHDUQ /> */}
         {/* <ThemHDUQ2 /> */}
+        {/* <TaoHDThanhCong /> */}
 
         {/* <DsHdKhaiThac /> */}
         {/* <DSThietBi /> */}
@@ -63,7 +67,7 @@ function App() {
         {/* <ChuKyDSoat /> */}
 
         {/* <TaiApp /> */}
-        <Feedback />
+        {/* <Feedback /> */}
 
       </header>
 
