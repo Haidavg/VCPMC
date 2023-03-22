@@ -38,7 +38,6 @@ const DSHopDong = () => {
                             <option value="saab">Mới</option>
                             <option value="opel">Còn thời hạn</option>
                             <option value="opel">Hết hạn</option>
-                            <option value="opel"></option>
                         </select>
                     </div>
 

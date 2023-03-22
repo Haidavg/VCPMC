@@ -37,7 +37,7 @@ function App() {
         {/* <ForgotPass /> */}
 
         {/* <KhoBanGhi /> */}
-        <TTBanGhi />
+        {/* <TTBanGhi /> */}
 
         {/* <Infor /> */}
         {/* <EditInfor /> */}
@@ -46,7 +46,7 @@ function App() {
 
         {/* <DSLichPhat /> */}
 
-        {/* <DSHopDong /> */}
+        <DSHopDong />
 
         {/* <HDUyQuyenBH /> */}
         {/* <ThemHDUQ /> */}
