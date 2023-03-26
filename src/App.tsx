@@ -28,6 +28,7 @@ import ThemHDUQ2 from './views/ThemHDUQ2/ThemHDUQ2';
 import ThemNgDung from './views/ThemNgDung/ThemNgDung';
 import TaoHDThanhCong from './views/TaoHDThanhCong/TaoHDThanhCong';
 import TTBanGhi from './views/TTBanGhi/TTBanGhi';
+import FPassSuccess from './views/FPassSuccess/FPassSuccess';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       <header className="App-header">
         {/* <Login /> */}
         {/* <ForgotPass /> */}
+        {/* <FPassSuccess /> */}
 
         {/* <KhoBanGhi /> */}
         {/* <TTBanGhi /> */}
@@ -46,7 +48,7 @@ function App() {
 
         {/* <DSLichPhat /> */}
 
-        <DSHopDong />
+        {/* <DSHopDong /> */}
 
         {/* <HDUyQuyenBH /> */}
         {/* <ThemHDUQ /> */}
@@ -67,7 +69,7 @@ function App() {
         {/* <ChuKyDSoat /> */}
 
         {/* <TaiApp /> */}
-        {/* <Feedback /> */}
+        <Feedback />
 
       </header>
 
