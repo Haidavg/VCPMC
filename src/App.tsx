@@ -30,6 +30,7 @@ import TaoHDThanhCong from './views/TaoHDThanhCong/TaoHDThanhCong';
 import TTBanGhi from './views/TTBanGhi/TTBanGhi';
 import FPassSuccess from './views/FPassSuccess/FPassSuccess';
 import BanSaoHD from './views/BanSaoHD/BanSaoHD';
+import AddPlaylist from './views/AddPlaylist/AddPlayist';
 
 function App() {
   return (
@@ -46,11 +47,12 @@ function App() {
         {/* <EditInfor /> */}
 
         {/* <Playlist /> */}
+        <AddPlaylist />
 
         {/* <DSLichPhat /> */}
 
         {/* <DSHopDong /> */}
-        <BanSaoHD />
+        {/* <BanSaoHD /> */}
 
         {/* <HDUyQuyenBH /> */}
         {/* <ThemHDUQ /> */}
